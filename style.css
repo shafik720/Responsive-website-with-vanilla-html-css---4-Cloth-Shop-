@@ -58,3 +58,59 @@ header{
 .fa-angle-down{
     font-size: 10px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Query  : */
+/* For mobile:  */
+@media only screen and (max-width:480px){
+    .fixed-width{
+        width: 100%;
+    }
+    /*---------- Menubar  ------------*/
+    .menubar-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 0;
+    }
+    .menubar-left{
+        margin: auto;
+        margin-bottom: 10px;
+    }
+    .hidden{
+        display: none;
+    }
+    #hovered{
+        background: #212529;
+        color: white; 
+        padding: 0px 15px;
+        border-radius: 15px;
+    }
+    .menubar-right ul{
+        background: #2125294b;
+        border-radius: 15px;
+        margin-bottom: 10px;
+    }
+    #home-menu{
+        color: white;
+    }
+}
+
+/* For ipads, tablet:  */
+@media only screen and (min-width:481px) and (max-width:768px) {}
+
+/* For Small screen, laptop:  */
+@media only screen and (min-width:769px) and (max-width:1024px) {}

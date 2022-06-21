@@ -1,0 +1,60 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/*-----------------------------------------------------------------------------
+ common styles  
+------------------------------------------------------------------------------*/
+.fixed-width{
+    width: 1150px;
+    margin: auto;
+}
+
+
+/*-----------------------------------------------------------------------------
+ header and menubar
+------------------------------------------------------------------------------*/
+header{    
+    border-bottom: 3px dotted rgb(177, 176, 176);
+}
+.menubar-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.menubar-right ul{
+    display: flex;
+}
+.menubar-right ul li{
+    list-style: none;
+    padding: 0px 15px;
+}
+.menubar-right ul li a{
+    color: #212529;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    height: 40px;
+    line-height: 40px;
+    border: transparent;
+    letter-spacing: 1px;
+    transition: all 0.3s ease 0s;
+}
+.menubar-right ul li a:hover{
+    color: grey;
+}
+#dropdown{
+    padding-right: 5px;
+}
+.fa-angle-down{
+    font-size: 10px;
+}

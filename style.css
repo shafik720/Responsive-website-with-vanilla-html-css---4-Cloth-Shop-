@@ -148,7 +148,7 @@ header{
     bottom: 0;
     margin: 10px;
     display: none;
-    transition: all 0.5s ease 0s;
+    transition: all 0.5s;
 }
 .right-banners-card-details-2 p{
     margin: 20px 0px;
@@ -158,8 +158,7 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 10px 0px;
-    transition: all 0.3s ease 0s;
+    padding: 10px 0px;    
 }
 
 

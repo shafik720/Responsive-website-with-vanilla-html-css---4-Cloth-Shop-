@@ -79,7 +79,8 @@ header{
     display: flex;
 }
 .banner-section{
-    margin: 80px 0px;
+    padding: 20px 0 50px 0;
+    border-bottom: 3px dotted grey;
 }
 
 .left-banners{

@@ -83,7 +83,7 @@ header{
 }
 
 .left-banners{
-    width: 600px;
+    width: 90%;
     margin: 0px 15px;
 }
 .left-banners{
@@ -110,6 +110,7 @@ header{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     column-gap: 15px;
+    width: 95.5%;
 }
 .right-banners-card{
     position: relative;
@@ -235,6 +236,7 @@ header{
         grid-template-columns: repeat(1,1fr);
         column-gap: 0px;
         row-gap: 5px;
+        width: 100%;
     }
 }
 
@@ -292,6 +294,7 @@ header{
         grid-template-columns: repeat(2,1fr);
         column-gap: 5px;
         row-gap: 5px;
+        width: 100%;
     }
 }
 
@@ -321,12 +324,13 @@ header{
         align-items: center;
     }
     .left-banners{
-        width: 400px;
+        width: 91%;
         margin: 0px;
     }
     .right-banners{
         display: grid;
         grid-template-columns: repeat(2,1fr);
-        padding: 10px;
+        padding: 0px;
+        width: 95%;
     }
 }

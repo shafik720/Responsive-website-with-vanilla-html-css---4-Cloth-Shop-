@@ -185,11 +185,10 @@ header{
     border-bottom: 3px dotted grey;
 }
 .men-heading{
-    margin: 30px 0;
+    margin: 10px 0 50px 0;
 }
 .men-heading h1{
     color: #212529;
-    margin: 10px 0;
     font-size: 2.1em;
     font-weight: 800;
 }
@@ -199,7 +198,7 @@ header{
 }
 .men-details{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
 }
 .card-ratings{
@@ -213,9 +212,18 @@ header{
 .card-ratings h2{
     font-weight: 800;
     letter-spacing: 1px;
+    color: #2A2A2A;
 }
 .card-ratings span a{
     color: #FFD944;
+}
+
+.men-card{
+    display: flex;
+    justify-content: space-between;
+}
+.men-cards{
+    margin: 0 10px;
 }
 .men-cards-details h3{
     color: grey;

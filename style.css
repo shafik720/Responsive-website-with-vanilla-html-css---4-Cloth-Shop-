@@ -31,6 +31,14 @@ a{
     color: #212529;
 }
 
+.arrow-button{
+    padding: 10px 20px;
+    border: 1px solid black;
+    color: #5F5F5F;
+    font-weight: 800;
+    font-size: 1.3em;
+}
+
 /*-----------------------------------------------------------------------------
  header and menubar
 ------------------------------------------------------------------------------*/
@@ -150,7 +158,7 @@ header{
     display: none;
     transition: all 0.5s;
 }
-.right-banners-card-details-2 p{
+.right-banners-card-details-2 p{  
     margin: 20px 0px;
 }
 .right-banners-card:hover .right-banners-card-details-2{
@@ -161,15 +169,51 @@ header{
     padding: 10px 0px;    
 }
 
+/*-----------------------------------------------------------------------------
+ Men's Sections
+------------------------------------------------------------------------------*/
 
-
-
-
-
-
-
-
-
+.men-latest{
+    margin: 50px 0 ;
+    padding: 20px 0 50px 0;
+    border-bottom: 3px dotted grey;
+}
+.men-heading{
+    margin: 30px 0;
+}
+.men-heading h1{
+    color: #212529;
+    margin: 10px 0;
+    font-size: 2.1em;
+    font-weight: 800;
+}
+.men-heading p{
+    color: grey;
+    font-style: italic;
+}
+.men-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card-ratings{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 800;
+}
+.card-ratings h2{
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+.card-ratings span a{
+    color: #FFD944;
+}
+.men-cards-details h3{
+    color: grey;
+}
 
 
 

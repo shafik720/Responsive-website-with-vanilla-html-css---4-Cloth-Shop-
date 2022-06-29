@@ -91,6 +91,7 @@ header{
 ------------------------------------------------------------------------------*/
 .banner-sections{
     display: flex;
+    padding: 0 10px;
 }
 .banner-section{
     padding: 20px 0 50px 0;
@@ -236,6 +237,9 @@ header{
     align-items: center;
     overflow: hidden;
 }
+.men-cards-image img{
+    width: 100%;
+}
 .floating-icon{
     position: absolute;
     bottom: 0;
@@ -265,6 +269,12 @@ header{
 @media only screen and (max-width:480px){
     .fixed-width{
         width: 100%;
+    }
+    .hidden-items{
+        display: none;
+    }
+    .hidden-items-mobile{
+        display: none;
     }
     /*---------- Menubar  ------------*/
     .menubar-section{
@@ -302,6 +312,7 @@ header{
     .banner-sections{
         display: flex;
         flex-direction: column;
+        padding: 0 10px;
     }
     .left-banners{
         width: 100%;
@@ -314,12 +325,40 @@ header{
         row-gap: 5px;
         width: 100%;
     }
+    /* Men section */
+    .men-details{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .men-heading{
+        text-align: center;
+    }
+    
+    .men-card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0 10px;
+    }
+    .men-cards{
+        margin: 20px 0;
+    }
 }
 
 /* For ipads, tablet:  */
 @media only screen and (min-width:481px) and (max-width:768px) {
     .fixed-width{
         width: 100%;
+    }
+    .hidden-items{
+        display: none;
+    }
+    
+    .hidden-items-tablet{
+        display: none;
     }
     /*---------- Menubar  ------------*/
     .menubar-section{
@@ -372,6 +411,31 @@ header{
         row-gap: 5px;
         width: 100%;
     }
+    /* Men section */
+    .men-details{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .men-heading{
+        text-align: center;
+    }
+    
+    .men-card{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 10px;
+    }
+    .men-cards{
+        margin: 0px 10px;
+    }
+    .card-ratings h2{
+        font-weight: 600;
+        letter-spacing: 0px;
+        font-size: 1.1em;
+        color: #2A2A2A;
+    }
 }
 
 /* For Small screen, laptop:  */
@@ -380,6 +444,9 @@ header{
         width: 100%;
     }
     .hidden{
+        display: none;
+    }
+    .hidden-items{
         display: none;
     }
     /*---------- Menubar  ------------*/
@@ -408,5 +475,30 @@ header{
         grid-template-columns: repeat(2,1fr);
         padding: 0px;
         width: 95%;
+    }
+    /* Men section */
+    .men-details{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .men-heading{
+        text-align: center;
+    }
+    
+    .men-card{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 10px;
+    }
+    .men-cards{
+        margin: 0px 10px;
+    }
+    .card-ratings h2{
+        font-weight: 600;
+        letter-spacing: 0px;
+        font-size: 1.1em;
+        color: #2A2A2A;
     }
 }

@@ -39,6 +39,12 @@ a{
     font-size: 1.3em;
 }
 
+.floating-icon-style{
+    color: #5F5F5F;
+    padding: 15px 15px;
+    background: white;
+}
+
 /*-----------------------------------------------------------------------------
  header and menubar
 ------------------------------------------------------------------------------*/
@@ -215,9 +221,27 @@ header{
     color: grey;
 }
 
-
-
-
+.men-cards-image{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.floating-icon{
+    position: absolute;
+    bottom: 0;
+    transform: translateY(50px);
+    transition: all 0.4s;
+    display: flex;
+}
+.men-cards-image:hover .floating-icon{
+    transform: translateY(-35px);
+}
+.floating-icon span{
+    margin-right: 15px;
+    margin-left: 15px;
+}
 
 
 

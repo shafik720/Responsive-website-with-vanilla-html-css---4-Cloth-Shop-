@@ -339,6 +339,8 @@ header{
 ------------------------------------------------------------------------------*/
 .social-section{
     margin-bottom: 50px;
+    border-bottom: 3px dotted grey;
+    padding: 20px 0 50px 0;
 }
 .social-details{
     display: flex;
@@ -391,6 +393,45 @@ header{
 }
 
 
+/*-----------------------------------------------------------------------------
+ Social Sections
+------------------------------------------------------------------------------*/
+.subscribe-section{
+    margin: 50px 0 ;
+    padding: 20px 0 50px 0;
+}
+.subscribe-left h2{
+    font-size: 1.8em;
+    font-weight: 800;
+    color: #2A2A2A;
+}
+.subscribe-left p{
+    margin-top: 10px ;
+    margin-bottom: 30px;
+    font-style: italic;
+    color: gray;
+}
+.email input{
+    width: 300px;
+    padding: 15px 10px;
+    font-size: 15px;
+    font-weight: 800;
+    color: #F8F8F8;
+    font-style: italic;
+    border: 1px solid black;
+    margin-right: 15px;
+}
+.send-button{
+    display: inline-block;
+    padding: 15px 15px;
+    background: #2A2A2A;
+    color: white;
+}
+.send-button:hover{
+    background: white;
+    color: black;
+    border: 1px solid black;
+}
 
 
 

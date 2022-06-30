@@ -258,24 +258,36 @@ header{
 /*-----------------------------------------------------------------------------
  Explore Sections
 ------------------------------------------------------------------------------*/
+
+.explore-sections{
+    display: flex;
+    justify-content: space-evenly;
+}
+.explore-left{
+    padding-right: 80px;
+}
 .explore-left h2{
     font-size: 1.8em;
     font-weight: 800;
 }
 .explore-left p{
-    color: grey;
+    color: #D4BBAB;
     margin: 30px 0;
+    line-height: 30px;
+    font-weight: 600;
 }
 .explore-quote{
     display: flex;
     justify-content: space-between;
     align-items: center;
     color: #212529;
+    font-style: italic;
 }
 .explore-quote .quote{
     font-size: 2.3em;
     font-weight: 800;
     color: #212529;
+    margin-right: 25px;
 }
 .support-text{
     color: #007DFF;
@@ -294,7 +306,27 @@ header{
 }
 
 
-
+.explore-right{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 10px;
+    row-gap: 10px;
+}
+.explore-div{
+    width: 263px;
+    height: 263px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #F8F8F8;
+}
+.explore-div h2{
+    margin-bottom: 15px;
+}
+.explore-div p{
+    color: #5F5F5F;
+}
 
 
 

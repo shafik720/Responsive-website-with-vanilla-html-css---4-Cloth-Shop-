@@ -400,6 +400,13 @@ header{
     margin: 50px 0 ;
     padding: 20px 0 50px 0;
 }
+.subscribe-sections{
+    display: flex;
+}
+.subscribe-left{
+    width: 100%;
+    padding-right: 30px;
+}
 .subscribe-left h2{
     font-size: 1.8em;
     font-weight: 800;
@@ -410,6 +417,41 @@ header{
     margin-bottom: 30px;
     font-style: italic;
     color: gray;
+}
+.subscribe-right{
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 30px;
+    column-gap: 30px;
+}
+.address{
+    width: 150px;
+}
+.address h2{
+    font-size: 1em;
+    font-weight: 800;
+    color: #2A2A2A;
+}
+.address p{
+    color:rgba(160, 159, 159, 0.863);
+    margin-top: 5px;
+    line-height: 20px;
+    font-weight: 600;
+}
+.address span {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 5px;
+    font-weight: 600;
+    column-gap: 5px;
+}
+.address span a{
+    color: rgba(160, 159, 159, 0.863);
+    display: inline-block;
+}
+.address span a:hover{
+    color: black;
 }
 .email input{
     width: 300px;

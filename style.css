@@ -702,6 +702,24 @@ header{
         margin-bottom: 30px;
         box-sizing: border-box;
     }
+    /*---------- Footer  ------------*/
+    .footer-top{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        row-gap: 40px;
+        padding-bottom: 30px;
+        text-align: center;
+    }
+    .footer-detail img{
+        width:100%;
+        margin-bottom: 25px;
+    }
+    .footer-section hr {
+        width: 90%;
+        margin: auto;
+    }
 }
 
 /* For ipads, tablet:  */
